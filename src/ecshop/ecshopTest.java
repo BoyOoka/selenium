@@ -26,15 +26,21 @@ public class ecshopTest {
 	 //验证正确登录
 	 assertEquals(driver.findElement(e.userInfoL).getText(), e.userInfo);
   }
+  /*
+   *搜索商品加入购物车付款 
+   */
   @Test(priority=2)
-  public void serch() {
-	  driver.findElement(e.serchText).sendKeys("诺基亚E66");
+  public void serch() throws InterruptedException {
+	  driver.findElement(e.serchText).sendKeys("恒基伟业G101");
 	  driver.findElement(e.serchButton).click();
 	  driver.findElement(e.good).click();
 	  driver.findElement(e.shopCarButton).click();;
 	  driver.findElement(e.payButton).click();;
 	  driver.findElement(e.payInputButton).click();
   }
+  /*
+   * 管理员发货
+   */
   @Test(priority=3)
   public void delivery(){
 		driver.get(e.adminUrl);
@@ -54,6 +60,9 @@ public class ecshopTest {
 		driver.findElement(e.check).click();
 		driver.findElement(e.deliverConfirm).click();
 	  }
+  	/*
+  	 * 确认收货
+  	 */
 	@Test(priority=4)
 	public void confirmgoods(){
 		driver.get(e.url);

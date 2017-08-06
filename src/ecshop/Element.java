@@ -7,9 +7,9 @@ public class Element {
 	String url = "http://192.168.0.103/ECShop_V2.7.3_UTF8_release1106/upload";
 	String adminUrl = "http://192.168.0.103/ECShop_V2.7.3_UTF8_release1106/upload/admin/privilege.php?act=login";
 	//用户名
-	String user = "gaya";
+	String user = "test1";
 	//用户密码
-	String password = "123456";
+	String password = "12345678";
 	//用户验证信息
 	String userInfo = "您好，"+user+", 欢迎您回来！ 用户中心| 退出";
 	//用户信息
@@ -27,7 +27,7 @@ public class Element {
 	//搜索按钮
 	By serchButton = By.xpath("//input[@name='imageField']");
 	//商品
-	By good = By.linkText("诺基亚E66");
+	By good = By.cssSelector("img.goodsimg");
 	//购物车按钮
 	By shopCarButton = By.cssSelector("li.padd > a > img");
 //	By shopCarButton = By.xpath("//li[9]/a/img");
