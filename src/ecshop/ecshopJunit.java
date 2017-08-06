@@ -83,7 +83,7 @@ public class ecshopJunit  {
 		String path = f.getAbsolutePath();
 		System.setProperty("webdriver.chrome.driver",path+"/lib/selenium/chromedriver");
 		driver = new ChromeDriver();
-		driver.manage().window().maximize();
+//		driver.manage().window().fullscreen();
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		driver.get(e.url);
   }
