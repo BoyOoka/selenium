@@ -6,6 +6,7 @@
       <class name="ecshop.ecshopTest">
         <methods>
           <include name="beforeClass"/>
+          <include name="confirmgoods"/>
           <include name="delivery"/>
           <include name="afterClass"/>
         </methods>
