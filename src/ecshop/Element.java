@@ -4,8 +4,8 @@ import org.openqa.selenium.By;
 
 public class Element {
 	//网址
-	String url = "http://192.168.0.103/ECShop_V2.7.3_UTF8_release1106/upload";
-	String adminUrl = "http://192.168.0.103/ECShop_V2.7.3_UTF8_release1106/upload/admin/privilege.php?act=login";
+	String url = "http://localhost/ECShop_V2.7.3_UTF8_release1106/upload";
+	String adminUrl = "http://localhost/ECShop_V2.7.3_UTF8_release1106/upload/admin/privilege.php?act=login";
 	//用户名
 	String user = "test1";
 	//用户密码

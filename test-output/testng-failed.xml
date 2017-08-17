@@ -8,7 +8,9 @@
           <include name="beforeClass"/>
           <include name="confirmgoods"/>
           <include name="delivery"/>
+          <include name="serch"/>
           <include name="afterClass"/>
+          <include name="login"/>
         </methods>
       </class> <!-- ecshop.ecshopTest -->
     </classes>

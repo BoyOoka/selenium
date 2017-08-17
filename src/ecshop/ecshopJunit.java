@@ -90,8 +90,8 @@ public class ecshopJunit  {
 
   @AfterClass
   public static void afterClass() {
-//	  driver.close();
-//	  driver.quit();
+	  driver.close();
+	  driver.quit();
   }
 
 }
