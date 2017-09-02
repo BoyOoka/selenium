@@ -16,7 +16,7 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-public class ecshopTest {
+public class ecshopTest{
 	Element e = new Element();
 	WebDriver driver;
   @Test(priority=1)
