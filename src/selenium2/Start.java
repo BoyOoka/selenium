@@ -1,4 +1,4 @@
-package selenium1;
+package selenium2;
 
 import com.thoughtworks.selenium.DefaultSelenium;
 

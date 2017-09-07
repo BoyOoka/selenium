@@ -2,32 +2,32 @@
 <testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="15964" started-at="2017-09-01T17:23:38Z" finished-at="2017-09-01T17:23:54Z">
+  <suite name="Default suite" duration-ms="15225" started-at="2017-09-04T12:45:51Z" finished-at="2017-09-04T12:46:06Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="15964" started-at="2017-09-01T17:23:38Z" finished-at="2017-09-01T17:23:54Z">
+    <test name="Default test" duration-ms="15225" started-at="2017-09-04T12:45:51Z" finished-at="2017-09-04T12:46:06Z">
       <class name="ecshop.ecshopTest">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:ecshop.ecshopTest@77cd7a0]" name="beforeClass" is-config="true" duration-ms="4088" started-at="2017-09-02T01:23:38Z" finished-at="2017-09-02T01:23:42Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:ecshop.ecshopTest@77cd7a0]" name="beforeClass" is-config="true" duration-ms="3213" started-at="2017-09-04T20:45:51Z" finished-at="2017-09-04T20:45:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="login()[pri:1, instance:ecshop.ecshopTest@77cd7a0]" name="login" duration-ms="932" started-at="2017-09-02T01:23:42Z" finished-at="2017-09-02T01:23:43Z">
+        <test-method status="PASS" signature="login()[pri:1, instance:ecshop.ecshopTest@77cd7a0]" name="login" duration-ms="1002" started-at="2017-09-04T20:45:54Z" finished-at="2017-09-04T20:45:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="serch()[pri:2, instance:ecshop.ecshopTest@77cd7a0]" name="serch" duration-ms="2097" started-at="2017-09-02T01:23:43Z" finished-at="2017-09-02T01:23:45Z">
+        <test-method status="PASS" signature="serch()[pri:2, instance:ecshop.ecshopTest@77cd7a0]" name="serch" duration-ms="2080" started-at="2017-09-04T20:45:55Z" finished-at="2017-09-04T20:45:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- serch -->
-        <test-method status="PASS" signature="delivery()[pri:3, instance:ecshop.ecshopTest@77cd7a0]" name="delivery" duration-ms="6508" started-at="2017-09-02T01:23:45Z" finished-at="2017-09-02T01:23:52Z">
+        <test-method status="PASS" signature="delivery()[pri:3, instance:ecshop.ecshopTest@77cd7a0]" name="delivery" duration-ms="6228" started-at="2017-09-04T20:45:57Z" finished-at="2017-09-04T20:46:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- delivery -->
-        <test-method status="PASS" signature="confirmgoods()[pri:4, instance:ecshop.ecshopTest@77cd7a0]" name="confirmgoods" duration-ms="1962" started-at="2017-09-02T01:23:52Z" finished-at="2017-09-02T01:23:54Z">
+        <test-method status="PASS" signature="confirmgoods()[pri:4, instance:ecshop.ecshopTest@77cd7a0]" name="confirmgoods" duration-ms="1871" started-at="2017-09-04T20:46:03Z" finished-at="2017-09-04T20:46:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- confirmgoods -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:ecshop.ecshopTest@77cd7a0]" name="afterClass" is-config="true" duration-ms="329" started-at="2017-09-02T01:23:54Z" finished-at="2017-09-02T01:23:54Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:ecshop.ecshopTest@77cd7a0]" name="afterClass" is-config="true" duration-ms="782" started-at="2017-09-04T20:46:05Z" finished-at="2017-09-04T20:46:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
