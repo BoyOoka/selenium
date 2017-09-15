@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="2" failures="0" hostname="gayatekiMacBook-Air.local" name="ecshop.ecshopJunit" skipped="0" tests="4" time="37.246" timestamp="2017-09-11T11:23:58">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="env.XPC_SERVICE_NAME" value="0" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="os.name" value="Mac OS X" />
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/classes" />
+    <property name="env.TMPDIR" value="/var/folders/g7/2dxdpw113910gp0svljgwr6h0000gn/T/" />
+    <property name="env.PWD" value="/Users/gaya/git/selenium" />
+    <property name="env.LANG" value="zh_CN.UTF-8" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="ant.home" value="/Users/gaya/apache-ant-1.10.1" />
+    <property name="java.runtime.version" value="1.8.0_131-b11" />
+    <property name="env.Apple_PubSub_Socket_Render" value="/private/tmp/com.apple.launchd.xOHw5ksvDp/Render" />
+    <property name="user.name" value="gaya" />
+    <property name="env.USER" value="gaya" />
+    <property name="env.SHELL" value="/bin/bash" />
+    <property name="env.__CF_USER_TEXT_ENCODING" value="0x1F5:0x19:0x34" />
+    <property name="env.PATH" value="/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:export path=/System/Library/Frameworks/JavaVM.framework/Versions/Current/Commands:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Applications/Wireshark.app/Contents/MacOS:/Users/gaya/Library/Android/sdkE/tools:/Users/gaya/Library/Android/sdkE/tools/bin:/Users/gaya/Library/Android/sdkE/platform-tools:/Users/gaya/Library/Android/sdkE/build-tools/26.0.0:/usr/bin:$/Users/gaya/bin/chromedriver:/Applications/Xcode.app/Contents/MacOS/:/Applications/Xcode8.3.app/Contents/MacOS/:/usr/local/mysql/bin:/Users/gaya/Documents/apache-maven-3.5.0/bin:/Users/gaya/apache-ant-1.10.1/bin" />
+    <property name="user.language" value="zh" />
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib" />
+    <property name="ant.project.default-target" value="build" />
+    <property name="env.XPC_FLAGS" value="0x0" />
+    <property name="ant.project.name" value="selenium" />
+    <property name="env.JAVA_MAIN_CLASS_4784" value="org.apache.tools.ant.launch.Launcher" />
+    <property name="java.version" value="1.8.0_131" />
+    <property name="user.timezone" value="" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="http.nonProxyHosts" value="local„ÄÅ169.254/16|*.local„ÄÅ169.254/16" />
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/endorsed" />
+    <property name="sun.cpu.isalist" value="" />
+    <property name="sun.jnu.encoding" value="UTF-8" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="env.SHLVL" value="1" />
+    <property name="ECLIPSE_HOME" value="../../../../Applications/Eclipse.app/Contents/Eclipse/" />
+    <property name="file.separator" value="/" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="java.class.version" value="52.0" />
+    <property name="user.country" value="CN" />
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre" />
+    <property name="env.ANDROID_HOME" value="/Users/gaya/Library/Android/sdkE" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="env.LOGNAME" value="gaya" />
+    <property name="ant.file" value="/Users/gaya/git/selenium/build.xml" />
+    <property name="os.version" value="10.12.6" />
+    <property name="env.TERM_PROGRAM_VERSION" value="388.1.1" />
+    <property name="path.separator" value=":" />
+    <property name="java.vm.version" value="25.131-b11" />
+    <property name="ant.library.dir" value="/Users/gaya/apache-ant-1.10.1/lib" />
+    <property name="junit.output.dir" value="junit" />
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob" />
+    <property name="env.TERM" value="xterm-256color" />
+    <property name="sun.io.unicode.encoding" value="UnicodeBig" />
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit" />
+    <property name="socksNonProxyHosts" value="local„ÄÅ169.254/16|*.local„ÄÅ169.254/16" />
+    <property name="ftp.nonProxyHosts" value="local„ÄÅ169.254/16|*.local„ÄÅ169.254/16" />
+    <property name="user.home" value="/Users/gaya" />
+    <property name="target" value="1.8" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="env.TERM_PROGRAM" value="Apple_Terminal" />
+    <property name="env.M2_HOME" value="/Users/gaya/Documents/apache-maven-3.5.0" />
+    <property name="java.library.path" value="/Users/gaya/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:." />
+    <property name="java.vendor.url" value="http://java.oracle.com/" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="gopherProxySet" value="false" />
+    <property name="ant.file.type.selenium" value="file" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner ecshop.ecshopJunit skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/gaya/git/selenium/junit/TEST-ecshop.ecshopJunit.xml crashfile=/Users/gaya/git/selenium/junitvmwatcher4800861175363037801.properties propsfile=/Users/gaya/git/selenium/junit1070010467614257239.properties" />
+    <property name="java.class.path" value="/Users/gaya/git/selenium/bin:/Applications/Eclipse.app/Contents/Eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng.jar:/Applications/Eclipse.app/Contents/Eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/jcommander.jar:/Applications/Eclipse.app/Contents/Eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/bsh-2.0b4.jar:/Applications/Eclipse.app/Contents/Eclipse/plugins/org.testng.eclipse_6.11.0.201703011520/lib/snakeyaml.jar:/Users/gaya/git/selenium/lib/selenium/client-combined-3.5.0-nodeps.jar:/Users/gaya/git/selenium/lib/selenium/lib/cglib-nodep-3.2.4.jar:/Users/gaya/git/selenium/lib/selenium/lib/commons-codec-1.10.jar:/Users/gaya/git/selenium/lib/selenium/lib/commons-exec-1.3.jar:/Users/gaya/git/selenium/lib/selenium/lib/commons-io-2.5.jar:/Users/gaya/git/selenium/lib/selenium/lib/commons-lang3-3.5.jar:/Users/gaya/git/selenium/lib/selenium/lib/commons-logging-1.2.jar:/Users/gaya/git/selenium/lib/selenium/lib/cssparser-0.9.23.jar:/Users/gaya/git/selenium/lib/selenium/lib/gson-2.8.0.jar:/Users/gaya/git/selenium/lib/selenium/lib/guava-22.0.jar:/Users/gaya/git/selenium/lib/selenium/lib/hamcrest-core-1.3.jar:/Users/gaya/git/selenium/lib/selenium/lib/htmlunit-2.27.jar:/Users/gaya/git/selenium/lib/selenium/lib/htmlunit-core-js-2.27.jar:/Users/gaya/git/selenium/lib/selenium/lib/htmlunit-driver-2.27.jar:/Users/gaya/git/selenium/lib/selenium/lib/httpclient-4.5.3.jar:/Users/gaya/git/selenium/lib/selenium/lib/httpcore-4.4.6.jar:/Users/gaya/git/selenium/lib/selenium/lib/httpmime-4.5.3.jar:/Users/gaya/git/selenium/lib/selenium/lib/javax.servlet-api-3.1.0.jar:/Users/gaya/git/selenium/lib/selenium/lib/jetty-client-9.4.5.v20170502.jar:/Users/gaya/git/selenium/lib/selenium/lib/jetty-http-9.4.5.v20170502.jar:/Users/gaya/git/selenium/lib/selenium/lib/jetty-io-9.4.5.v20170502.jar:/Users/gaya/git/selenium/lib/selenium/lib/jetty-util-9.4.5.v20170502.jar:/Users/gaya/git/selenium/lib/selenium/lib/jna-4.1.0.jar:/Users/gaya/git/selenium/lib/selenium/lib/jna-platform-4.1.0.jar:/Users/gaya/git/selenium/lib/selenium/lib/junit-4.12.jar:/Users/gaya/git/selenium/lib/selenium/lib/neko-htmlunit-2.27.jar:/Users/gaya/git/selenium/lib/selenium/lib/phantomjsdriver-1.4.0.jar:/Users/gaya/git/selenium/lib/selenium/lib/sac-1.3.jar:/Users/gaya/git/selenium/lib/selenium/lib/serializer-2.7.2.jar:/Users/gaya/git/selenium/lib/selenium/lib/websocket-api-9.4.5.v20170502.jar:/Users/gaya/git/selenium/lib/selenium/lib/websocket-client-9.4.5.v20170502.jar:/Users/gaya/git/selenium/lib/selenium/lib/websocket-common-9.4.5.v20170502.jar:/Users/gaya/git/selenium/lib/selenium/lib/xalan-2.7.2.jar:/Users/gaya/git/selenium/lib/selenium/lib/xercesImpl-2.11.0.jar:/Users/gaya/git/selenium/lib/selenium/lib/xml-apis-1.4.01.jar:/Users/gaya/git/selenium/lib/selenium/selenium-java-client-driver-1.0.2.jar:/Users/gaya/apache-ant-1.10.1/lib/ant-launcher.jar:/Users/gaya/apache-ant-1.10.1/lib/ant.jar:/Users/gaya/apache-ant-1.10.1/lib/ant-junit.jar:/Users/gaya/apache-ant-1.10.1/lib/ant-junit4.jar" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.10.1 compiled on February 2 2017" />
+    <property name="env.TERM_SESSION_ID" value="DE01D889-B20D-4712-80C2-E55136D293FB" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="ant.file.type" value="file" />
+    <property name="java.vm.specification.version" value="1.8" />
+    <property name="sun.os.patch.level" value="unknown" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="env.HOME" value="/Users/gaya" />
+    <property name="debuglevel" value="source,lines,vars" />
+    <property name="env.ANT_HOME" value="/Users/gaya/apache-ant-1.10.1" />
+    <property name="java.io.tmpdir" value="/var/folders/g7/2dxdpw113910gp0svljgwr6h0000gn/T/" />
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+    <property name="env.SSH_AUTH_SOCK" value="/private/tmp/com.apple.launchd.zhrL1IO7VW/Listeners" />
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment" />
+    <property name="os.arch" value="x86_64" />
+    <property name="java.ext.dirs" value="/Users/gaya/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java" />
+    <property name="user.dir" value="/Users/gaya/git/selenium" />
+    <property name="line.separator" value="&#xa;" />
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+    <property name="basedir" value="/Users/gaya/git/selenium" />
+    <property name="ant.java.version" value="1.8" />
+    <property name="ant.core.lib" value="/Users/gaya/apache-ant-1.10.1/lib/ant.jar" />
+    <property name="source" value="1.8" />
+    <property name="file.encoding" value="UTF-8" />
+    <property name="java.specification.version" value="1.8" />
+    <property name="ant.project.invoked-targets" value="ecshopJunit" />
+    <property name="ant.file.selenium" value="/Users/gaya/git/selenium/build.xml" />
+  </properties>
+  <testcase classname="ecshop.ecshopJunit" name="login" time="1.125" />
+  <testcase classname="ecshop.ecshopJunit" name="serch" time="2.982" />
+  <testcase classname="ecshop.ecshopJunit" name="delivery" time="5.643">
+    <error message="unknown error: unhandled inspector error: {&quot;code&quot;:-32000,&quot;message&quot;:&quot;Cannot find context with specified id&quot;}&#xa;  (Session info: chrome=60.0.3112.113)&#xa;  (Driver info: chromedriver=2.30.477690 (c53f4ad87510ee97b5c3425a14c0e79780cdf262),platform=Mac OS X 10.12.6 x86_64) (WARNING: The server did not provide any stacktrace information)&#xa;Command duration or timeout: 0 milliseconds&#xa;Build info: version: &apos;unknown&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;&#xa;System info: host: &apos;gayatekiMacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:1c58:32e3:2bf8:be41%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.6&apos;, java.version: &apos;1.8.0_131&apos;&#xa;Driver info: org.openqa.selenium.chrome.ChromeDriver&#xa;Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477690 (c53f4ad87510ee97b5c3425a14c0e79780cdf262), userDataDir=/var/folders/g7/2dxdpw113910gp0svljgwr6h0000gn/T/.org.chromium.Chromium.UhFOoK}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.113, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]&#xa;Session ID: 281d6e3fbc060f4965344753106c8e29&#xa;*** Element info: {Using=name, value=to_delivery}" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: unknown error: unhandled inspector error: {&quot;code&quot;:-32000,&quot;message&quot;:&quot;Cannot find context with specified id&quot;}
+  (Session info: chrome=60.0.3112.113)
+  (Driver info: chromedriver=2.30.477690 (c53f4ad87510ee97b5c3425a14c0e79780cdf262),platform=Mac OS X 10.12.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;unknown&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;gayatekiMacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:1c58:32e3:2bf8:be41%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.6&apos;, java.version: &apos;1.8.0_131&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477690 (c53f4ad87510ee97b5c3425a14c0e79780cdf262), userDataDir=/var/folders/g7/2dxdpw113910gp0svljgwr6h0000gn/T/.org.chromium.Chromium.UhFOoK}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.113, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 281d6e3fbc060f4965344753106c8e29
+*** Element info: {Using=name, value=to_delivery}
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:641)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:414)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:489)
+	at org.openqa.selenium.By$ByName.findElement(By.java:303)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:406)
+	at ecshop.ecshopJunit.delivery(ecshopJunit.java:64)
+</error>
+  </testcase>
+  <testcase classname="ecshop.ecshopJunit" name="confirmgoods" time="21.194">
+    <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;确认收货&quot;}&#xa;  (Session info: chrome=60.0.3112.113)&#xa;  (Driver info: chromedriver=2.30.477690 (c53f4ad87510ee97b5c3425a14c0e79780cdf262),platform=Mac OS X 10.12.6 x86_64) (WARNING: The server did not provide any stacktrace information)&#xa;Command duration or timeout: 0 milliseconds&#xa;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#xa;Build info: version: &apos;unknown&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;&#xa;System info: host: &apos;gayatekiMacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:1c58:32e3:2bf8:be41%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.6&apos;, java.version: &apos;1.8.0_131&apos;&#xa;Driver info: org.openqa.selenium.chrome.ChromeDriver&#xa;Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477690 (c53f4ad87510ee97b5c3425a14c0e79780cdf262), userDataDir=/var/folders/g7/2dxdpw113910gp0svljgwr6h0000gn/T/.org.chromium.Chromium.UhFOoK}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.113, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]&#xa;Session ID: 281d6e3fbc060f4965344753106c8e29&#xa;*** Element info: {Using=link text, value=确认收货}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;确认收货&quot;}
+  (Session info: chrome=60.0.3112.113)
+  (Driver info: chromedriver=2.30.477690 (c53f4ad87510ee97b5c3425a14c0e79780cdf262),platform=Mac OS X 10.12.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;unknown&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;gayatekiMacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:1c58:32e3:2bf8:be41%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.6&apos;, java.version: &apos;1.8.0_131&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477690 (c53f4ad87510ee97b5c3425a14c0e79780cdf262), userDataDir=/var/folders/g7/2dxdpw113910gp0svljgwr6h0000gn/T/.org.chromium.Chromium.UhFOoK}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.113, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 281d6e3fbc060f4965344753106c8e29
+*** Element info: {Using=link text, value=确认收货}
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:641)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:414)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:465)
+	at org.openqa.selenium.By$ByLinkText.findElement(By.java:246)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:406)
+	at ecshop.ecshopJunit.confirmgoods(ecshopJunit.java:76)
+</error>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 2.30.477690 (c53f4ad87510ee97b5c3425a14c0e79780cdf262) on port 38638
+Only local connections are allowed.
+九月 11, 2017 7:24:00 下午 org.openqa.selenium.remote.ProtocolHandshake createSession
+信息: Detected dialect: OSS
+]]></system-err>
+</testsuite>
