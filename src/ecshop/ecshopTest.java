@@ -37,10 +37,31 @@ public class ecshopTest{
   public void serch() throws InterruptedException {
 	  driver.findElement(e.serchText).sendKeys("恒基伟业G101");
 	  driver.findElement(e.serchButton).click();
+	 try{ 
 	  driver.findElement(e.good).click();
-	  driver.findElement(e.shopCarButton).click();;
-	  driver.findElement(e.payButton).click();;
+	 }catch (WebDriverException w){
+		 	WebDriverWait wait = new WebDriverWait(driver, 5);
+			System.out.println(2);
+			wait.until(ExpectedConditions.elementToBeClickable(e.good));
+			driver.findElement(e.good).click();
+	 }
+	  try{
+	  driver.findElement(e.shopCarButton).click();
+	  }catch (WebDriverException w){
+		  	WebDriverWait wait = new WebDriverWait(driver, 5);
+			System.out.println(2);
+			wait.until(ExpectedConditions.elementToBeClickable(e.shopCarButton));
+			driver.findElement(e.shopCarButton).click();
+	  }
+	  driver.findElement(e.payButton).click();
+	 try{
 	  driver.findElement(e.payInputButton).click();
+	 }catch (WebDriverException w){
+		 WebDriverWait wait = new WebDriverWait(driver, 5);
+			System.out.println(2);
+			wait.until(ExpectedConditions.elementToBeClickable(e.payInputButton));
+			driver.findElement(e.payInputButton).click();
+	 }
   }
   /*
    * 管理员发货

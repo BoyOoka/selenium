@@ -10,7 +10,6 @@
           <include name="delivery"/>
           <include name="serch"/>
           <include name="afterClass"/>
-          <include name="login"/>
         </methods>
       </class> <!-- ecshop.ecshopTest -->
     </classes>
