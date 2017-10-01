@@ -10,11 +10,14 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebDriverException;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.events.EventFiringWebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
+
+import selenium.MyWebDriverListener;
 
 public class ecshopTest{
 	Element e = new Element();
@@ -116,6 +119,12 @@ public class ecshopTest{
 		driver = new ChromeDriver();
 //		System.setProperty("webdriver.gecko.driver",path+"/lib/selenium/geckodriver");
 //		driver = new FirefoxDriver();
+//		//注册事件
+//	    EventFiringWebDriver eventDriver = new EventFiringWebDriver(driver);
+//        //注册事件
+//	    eventDriver.register(new MyWebDriverListener());
+
+		
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		driver.get(e.url);

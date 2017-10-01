@@ -5,6 +5,7 @@ import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.events.EventFiringWebDriver;
 
 
 public class testGayaSelenium {
@@ -13,7 +14,11 @@ public class testGayaSelenium {
 	public void beforeclass()  {
 		System.setProperty("webdriver.chrome.driver", "/Users/gaya/git/selenium/lib/selenium/chromedriver");
 		g.driver = new ChromeDriver();
-		g.driver.get("http://pub.alimama.com/");
+	    EventFiringWebDriver eventDriver = new EventFiringWebDriver(g.driver);
+	        //注册事件
+	    eventDriver.register(new MyWebDriverListener());
+
+	    eventDriver.get("http://pub.alimama.com/");
 	}
 
 	@After
@@ -24,8 +29,8 @@ public class testGayaSelenium {
 	@Test
 	public void testClick() {
 		g.switchToframe("taobaoLoginIfr");
-//		g.click(By.cssSelector("#J_Quick2Static"));
-		g.jsClick(By.cssSelector("#J_Quick2Static"));
+		g.click(By.cssSelector("#J_Quick2Static"));
+//		g.jsClick(By.cssSelector("#J_Quick2Static"));
 		g.sendkeys(By.id("TPL_username_1"), "13281549858");
 		g.sendkeys(By.id("TPL_password_1"), "13183937209Peng");
 		try {
@@ -33,8 +38,8 @@ public class testGayaSelenium {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-//		g.click(By.id("J_SubmitStatic"));
-		g.jsClick(By.id("J_SubmitStatic"));
+		g.click(By.id("J_SubmitStatic"));
+//		g.jsClick(By.id("J_SubmitStatic"));
 	}
 
 }

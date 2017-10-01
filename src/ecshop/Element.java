@@ -4,26 +4,26 @@ import org.openqa.selenium.By;
 
 public class Element {
 	//网址
-	String url = "http://localhost/ECShop_V2.7.3_UTF8_release1106/upload";
+	public String url = "http://localhost/ECShop_V2.7.3_UTF8_release1106/upload";
 	String adminUrl = "http://localhost/ECShop_V2.7.3_UTF8_release1106/upload/admin/privilege.php?act=login";
 	//用户名
-	String user = "test1";
+	public String user = "test1";
 	//用户密码
-	String password = "12345678";
+	public String password = "12345678";
 	//用户验证信息
-	String userInfo = "您好，"+user+", 欢迎您回来！ 用户中心| 退出";
+	public String userInfo = "您好，"+user+", 欢迎您回来！ 用户中心| 退出";
 	//用户信息
-	By userInfoL = By.cssSelector("#ECS_MEMBERZONE > font");
+	public By userInfoL = By.cssSelector("#ECS_MEMBERZONE > font");
 	//登录按钮
-	By userLogin = By.xpath("//font[@id='ECS_MEMBERZONE']/a/img");
+	public By userLogin = By.xpath("//font[@id='ECS_MEMBERZONE']/a/img");
 	//用户名输入框
-	By userName = By.name("username");
+	public By userName = By.name("username");
 	//用户密码输入框
-	By userPassword = By.name("password");
+	public By userPassword = By.name("password");
 	//提交登录信息按钮
-	By userSubmit = By.name("submit");
+	public By userSubmit = By.name("submit");
 	//搜索输入框
-	By serchText = By.id("keyword");
+	public By serchText = By.id("keyword");
 	//搜索按钮
 	By serchButton = By.xpath("//input[@name='imageField']");
 	//商品
