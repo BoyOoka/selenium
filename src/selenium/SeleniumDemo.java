@@ -2,6 +2,8 @@ package selenium;
 
 import static org.testng.Assert.assertEquals;
 
+import java.io.IOException;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -15,8 +17,9 @@ public class SeleniumDemo {
 
     /**
      * @param args
+     * @throws IOException 
      */
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
     	Element e = new Element();
     	GayaSelenium g = new GayaSelenium();
 		System.setProperty("webdriver.chrome.driver", "/Users/gaya/git/selenium/lib/selenium/chromedriver");
@@ -39,7 +42,7 @@ public class SeleniumDemo {
 
         //故意写一个错误操作, 使selenium产生异常
         try{
-            eventDriver.findElement(By.id("番天印"));
+//            eventDriver.findElement(By.id("番天印"));
         }catch(Exception e1){
             e1.printStackTrace();
         }

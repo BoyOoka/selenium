@@ -1,8 +1,12 @@
 package selenium;
 
 import java.io.File;
+import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
+import java.io.IOException;
 import java.io.OutputStream;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.Alert;
@@ -14,17 +18,29 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class GayaSelenium {
 	WebDriver driver;
 	int waitTime = 10;
 	//单击
-	public void click(By locator){
+	public void click(By locator) throws IOException{
 		WebDriverWait wait = new WebDriverWait(driver, waitTime);
+	try{	
 		wait.until(ExpectedConditions.elementToBeClickable(locator));
 		driver.findElement(locator).click();
+		System.out.println("单击："+locator);
+		}catch(Exception e){
+			System.out.println("单击:"+locator);
+			System.out.println(e.getMessage());
+			OutputStream out = null; 
+			SimpleDateFormat format = new SimpleDateFormat("yyyy_MM_dd_HH_mm_ss");
+			String dateString = format.format(new Date());
+			TakesScreenshot take = (TakesScreenshot)driver;
+			File file = take.getScreenshotAs(OutputType.FILE);
+			out = new FileOutputStream("/Users/gaya/Downloads/testRename/"+dateString+".jpg");
+			FileUtils.copyFile(file,out);
+		}
 	}
 	//双击
 	public void doubleClick(By locator){
@@ -56,9 +72,11 @@ public class GayaSelenium {
 	//截图
 	public  void takeScreen(String name,String path) throws Exception{
 	 	OutputStream out = null; 
+	 	SimpleDateFormat format = new SimpleDateFormat("yyyy_MM_dd_HH_mm_ss");
+	    String dateString = format.format(new Date());
 		TakesScreenshot take = (TakesScreenshot)driver;
 		File file = take.getScreenshotAs(OutputType.FILE);
-		out = new FileOutputStream(path+name+".jpg");
+		out = new FileOutputStream(path+name+dateString+".jpg");
 		FileUtils.copyFile(file,out);
 	 }
 	//js点击

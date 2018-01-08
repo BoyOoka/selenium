@@ -1,5 +1,7 @@
 package selenium;
 
+import java.io.IOException;
+
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -27,7 +29,7 @@ public class testGayaSelenium {
 	}
 
 	@Test
-	public void testClick() {
+	public void testClick() throws IOException {
 		g.switchToframe("taobaoLoginIfr");
 		g.click(By.cssSelector("#J_Quick2Static"));
 //		g.jsClick(By.cssSelector("#J_Quick2Static"));

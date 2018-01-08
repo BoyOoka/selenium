@@ -1,19 +1,14 @@
 package selenium;
 
-import static org.junit.Assert.*;
-
-import java.util.List;
+import java.io.IOException;
 import java.util.Random;
 import java.util.Set;
 
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
-import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
 
 public class SeleniumTest {
@@ -31,7 +26,7 @@ public class SeleniumTest {
 	}
 
 	@Test
-	public void selectTest() {
+	public void selectTest() throws IOException {
 		g.driver.get("http://localhost/webtest/body.htm");
 		g.click(By.id("a1"));
 		g.click(By.id("a2"));
@@ -42,7 +37,7 @@ public class SeleniumTest {
 		sel.selectByIndex(i);
 	}
 	@Test
-	public void alertTest(){
+	public void alertTest() throws IOException{
 		g.driver.get("http://localhost/webtest/body.htm");
 		g.click(By.id("confirm"));
 //		String s0 = g.driver.switchTo().alert().getText();
@@ -74,7 +69,7 @@ public class SeleniumTest {
 		System.out.println(s1+","+s2);
 	}
 	@Test
-	public void prompt(){
+	public void prompt() throws IOException{
 		g.driver.get("http://localhost/webtest/dialog.htm");
 		g.click(By.id("prompt"));
 		g.alert(3, "test");
@@ -87,7 +82,7 @@ public class SeleniumTest {
 		g.driver.findElement(By.id("id5")).sendKeys("/Users/gaya/Desktop/图片/0.jpg");
 	}
 	@Test
-	public void window(){
+	public void window() throws IOException{
 		g.driver.get("http://localhost/webtest/locator.htm");
 		String parent = g.driver.getWindowHandle();
 		g.click(By.linkText("百度"));
